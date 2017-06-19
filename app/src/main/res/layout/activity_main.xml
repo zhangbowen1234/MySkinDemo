@@ -1,0 +1,29 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:id="@+id/activity_diyi"
+    android:orientation="vertical" >
+    <LinearLayout
+       
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#44ffffff"
+        android:text="设置背景" />
+   <!--  <LinearLayout
+        android:id="@+id/mylayout1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </LinearLayout> -->
+</LinearLayout>
